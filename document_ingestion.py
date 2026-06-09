@@ -54,6 +54,9 @@ def clean_text(text: str) -> str:
     # Remove non-printable control characters (keep newlines/tabs)
     text = re.sub(r"[^\x09\x0A\x0D\x20-\x7E\u00A0-\uFFFF]", " ", text)
 
+    # Strip leading punctuation/whitespace from chunk boundaries
+    text = re.sub(r"^[\s.,;:]+", "", text)
+
     # Normalise unicode punctuation
     text = (
         text.replace("\u2018", "'").replace("\u2019", "'")   # curly single quotes
