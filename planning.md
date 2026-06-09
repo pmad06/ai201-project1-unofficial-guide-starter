@@ -69,7 +69,7 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | What do students say about wait times at the Broward dining hall |  Pull answer from Broward reopening article or student's responses on Reddit about long lines at Broward |
+| 1 | What are on-campus food options at UF? | Pull answer from food guides with information about restaraunts and their locations |
 | 2 | According to students, is the UF meal plan worth buying? | Pull answer from Prked guide and break down prices and value of each type of meal plan |
 | 3 | What vegan or vegetarian food options are available near UF campus? | Pull answer from Spoon University's food guide and the Alligator's vegan article |
 | 4 | What are students' opinions about dining halls on campus? | Pull answer from Reddit about student's reviews on dining hall food |
